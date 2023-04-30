@@ -1,0 +1,228 @@
+@media(max-width: 1200px){
+
+  .bubble-gum{
+    height: 40%;
+    width: 50%;
+    top: 7rem;
+    display: unset;
+  }
+
+  .main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px !important;
+  }
+
+  .bubble-two{
+    display: none;
+  }
+
+  h5{
+    font-size: 1.2rem;
+  }
+
+  .carousel-indicators button{
+    height: 40px !important;
+    width: 90px !important;
+  }
+
+  .extension{
+    margin-top: 25rem !important;
+  /* ////not sure why elemnets are appearing behind the carousel so i need margin tp */
+    height: 600px !important;
+  }
+
+  
+.extension .box{
+  height: 20rem;
+  width: 35rem !important;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg-dots.svg);
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.493);
+  column-gap: 1.5rem;
+  row-gap: 1rem;
+  background-position-y: 70%;
+}
+
+}
+
+/* //////////////////phone//////// */
+
+@media(max-width: 800px){
+
+
+  .main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem !important;
+  }
+
+  .nav-item{
+    margin-right: 0px;
+  }
+
+  body{
+    overflow-x: hidden !important;
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .carousel-inner h2{
+    margin-top: 10px;
+  }
+
+  .section-main p{
+    text-align: center;
+  }
+
+  .main-img{
+    margin-top: 40px;
+  }
+
+  .bubble-gum{
+    height: 20%;
+    width: 60%;
+    top: 37rem;
+    display: none;
+  }
+
+  .bubble-two{
+    height: 20%;
+    width: 40%;
+    bottom: -420px;
+    display: none;
+  }
+
+  .section-main{
+    flex-direction: column;
+  }
+
+  .btns-main{
+    text-align: center;
+  }
+
+  .btns-main button{
+    margin-right: 0px;
+  }
+
+  h5{
+    font-size: 1rem;
+  }
+
+  .carousel-inner .row{
+    flex-direction: column;
+    text-align: center;
+    overflow-x: hidden !important;
+  }
+
+  .carousel-indicators button{
+    height: 30px !important;
+    width: 200px !important;
+    
+  }
+
+  .extension{
+    margin-top: 38rem !important;
+  /* ////not sure why elemnets are appearing behind the carousel so i need margin tp */
+    height: 80rem !important;
+  }
+
+  .extension .wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5rem;
+    margin-top: 5rem;
+    row-gap: 2rem;
+    flex-direction: column;
+  }
+
+
+  
+  .extension .box{
+    height: 20rem;
+    width: 15rem !important;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-dots.svg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.493);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    background-position-y: 70%;
+  }
+
+  .email-input{
+    width: 80% !important;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+  .mobile-input{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-btn{
+    padding: 7px 0px 7px 0px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .social{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .foot{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+  }
+
+  .foot img{
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+
+  .foot a{
+    margin-bottom: 10px;
+  }
+
+  .icons{
+    position: relative;
+    right: -.7rem
+  }
+
+}
